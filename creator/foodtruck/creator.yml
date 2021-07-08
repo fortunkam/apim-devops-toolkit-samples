@@ -1,0 +1,32 @@
+apiVersionSets:
+- description: Testing API creation aputomation
+  displayName: SwaggerTestApi
+  id: myAPIVersionSetID
+  versionHeaderName: versionHeader
+  versionQueryName: versionQuery
+  versioningScheme: Query
+apimServiceName: mfapim2
+apis:
+- apiRevision: 1
+  apiRevisionDescription: My first revision
+  apiVersion: v2
+  apiVersionDescription: My first version
+  apiVersionSetId: myAPIVersionSetID
+  description: myFirstAPI
+  displayName: My API
+  name: testingautomation1
+  openApiSpec: swagger.json
+  openApiSpecFormat: swagger
+  policy: api-policy.xml
+  serviceUrl: https://xyz.com
+  suffix: testing
+namedValues:
+- displayName: Secret
+  value: Secret Key Vault value
+  secret: true
+- displayName: KVSecret
+  secret: true
+  keyvault:
+    secretIdentifier: https://kvapimprivate.vault.azure.net/secrets/KVSecret2
+outputLocation: .\templates
+version: 0.0.1

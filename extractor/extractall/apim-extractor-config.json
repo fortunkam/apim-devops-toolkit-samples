@@ -1,0 +1,16 @@
+{
+    "baseFileName": "base-apim",
+    "sourceApimName": "mfapim",
+    "destinationApimName": "mfapim2",
+    "resourceGroup": "apim-kv-pl",
+    "fileFolder":".\\templates",
+    "linkedTemplatesBaseUrl": "https://mfapimdevportal.blob.core.windows.net/arm-test",
+    "LinkedTemplatesUrlQueryString": "",
+    "policyXMLBaseUrl" : "https://mfapimdevportal.blob.core.windows.net/arm-test/policies",
+    "policyXMLSasToken" : "",
+    "paramNamedValue": "true",
+    "paramApiLoggerId": "true",
+    "paramLogResourceId": "true",
+    "paramNamedValuesKeyVaultSecrets": "true",
+    "paramBackend": "true"
+}

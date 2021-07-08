@@ -1,0 +1,20 @@
+<policies>
+    <inbound>
+        <base />
+    </inbound>
+    <backend>
+        <base />
+    </backend>
+    <outbound>
+        <set-header name="x-debug-1" exists-action="override">
+            <value>{{KVSecret}}</value>
+        </set-header>
+        <set-header name="x-debug-2" exists-action="override">
+            <value>{{Secret}}</value>
+        </set-header>
+        <base />
+    </outbound>
+    <on-error>
+        <base />
+    </on-error>
+</policies>
