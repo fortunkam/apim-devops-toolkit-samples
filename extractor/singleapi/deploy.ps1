@@ -12,8 +12,7 @@ $namedValues = @{
     "KVSecret3"= "This is a secret value 3"
     "KVSecret4"= "This is a secret value 4"
     "Property60c38cad4ce5721780d17985"= "caa8f0b0-34cf-48d0-a2fc-f39379313ffa"
-    "Property60e078d14ce5720a942b9ff0"= "Endpoint=sb://mfapimeventhub.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=NZT1s2L7LyXLPIh9qFS+Jb6lFUvJyXBSQc43jb3dGTk="
-    "mfsimplefunctionkey"= "jgU0tCVx9++JaNy+Ndnsr6V89R1iXdk683PBReW5kqbbmeda4fo0Rg=="
+    "Property60e078d14ce5720a942b9ff0"= ""
 }
 
 $namedValuesToBeRemoved = @("Test1", "Test2")
